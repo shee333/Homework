@@ -1,0 +1,8 @@
+Menu.cpp: In member function 'void Menu::addPatterns()':
+Menu.cpp:43:25: error: 'void ACAutomaton::buildFailureLinks()' is private within this context
+43 |     ac.buildFailureLinks();
+|     ~~~~~~~~~~~~~~~~~~~~^~
+In file included from Menu.h:6,
+from Menu.cpp:1:
+ACAutomaton.h:23:10: note: declared private here
+23 |     void buildFailureLinks();
